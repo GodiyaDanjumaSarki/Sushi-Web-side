@@ -14,6 +14,7 @@ header {
   box-shadow: 0px 8px 16px 0 rgba(0, 0, 0, 0.2);
   animation: header 500ms ease;
   position: fixed;
+  z-index: 100;
 }
 
 @keyframes header {
@@ -418,6 +419,15 @@ nav {
   margin-left: 50px;
   align-items: center;
   justify-content: center;
+}
+
+.service-images {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(2, 200px);
 }
 
 .bottom {
