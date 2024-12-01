@@ -421,15 +421,6 @@ nav {
   justify-content: center;
 }
 
-.service-images {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  margin-left: 150px;
-  flex-wrap: wrap;
-  grid-template-columns: repeat(2, 200px);
-}
-
 .bottom {
   display: flex;
   align-items: center;
